@@ -1717,7 +1717,6 @@ window.theme.fn = {
 				.removeClass('fadeIn')
 				.addClass( 'fadeOut animated' );
 
-			setTimeout(function(){
 				setTimeout(function(){
 					$prevSlide.removeClass('active');
 				}, 400);
@@ -1726,8 +1725,6 @@ window.theme.fn = {
 					.addClass('active')
 					.removeClass('fadeOut')
 					.addClass( 'fadeIn animated' );
-
-			}, 200);
 
 			// Dots
 			self.$el
