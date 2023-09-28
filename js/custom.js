@@ -503,16 +503,24 @@ function teamCarousel () {
             smartSpeed: 1000,
             responsive:{
                 0:{
-                    items:1
+                    items:1,
+                    dots: true,
+                    loop: true
                 },
                 600:{
-                    items:1
+                    items:1,
+                    dots: true,
+                    loop: true
                 },
                 800:{
-                    items:2
+                    items:2,
+                    dots: true,
+                    loop: true
                 },
                 1024:{
-                    items:2
+                    items:2,
+                    dots: true,
+                    loop: true
                 },
                 1100:{
                     items:3
@@ -524,6 +532,92 @@ function teamCarousel () {
         });    		
     }
 }
+
+// const mediaQuery = window.matchMedia('(max-width: 994px)')
+// // Check if the media query is true
+// if (mediaQuery.matches) {
+//   // Then trigger an alert
+//   function teamCarousel () {
+//     if ($('.team-carousel').length) {
+//         $('.team-carousel').owlCarousel({
+//             dots: true,
+//             loop:false,
+//             margin:30,
+//             nav:false,
+//             navText: [
+//                 '<i class="fa fa-angle-left"></i>',
+//                 '<i class="fa fa-angle-right"></i>'
+//             ],
+//             autoplayHoverPause: false,
+//             autoplay: 3000,
+//             smartSpeed: 1000,
+//             responsive:{
+//                 0:{
+//                     items:1
+//                 },
+//                 600:{
+//                     items:1
+//                 },
+//                 800:{
+//                     items:2
+//                 },
+//                 1024:{
+//                     items:2
+//                 },
+//                 1100:{
+//                     items:3
+//                 },
+//                 1200:{
+//                     items:3
+//                 }
+//             }
+
+//         });    		
+//     }
+// }
+// }
+
+
+// if (screen.width <= 960)
+// {
+//     function teamCarousel () {
+//         if ($('.team-carousel').length) {
+//             $('.team-carousel').owlCarousel({
+//                 dots: true,
+//                 loop:true,
+//                 margin:30,
+//                 nav:false,
+//                 navText: [
+//                     '<i class="fa fa-angle-left"></i>',
+//                     '<i class="fa fa-angle-right"></i>'
+//                 ],
+//                 autoplayHoverPause: false,
+//                 autoplay: 6000,
+//                 smartSpeed: 1000,
+//                 responsive:{
+//                     0:{
+//                         items:1
+//                     },
+//                     600:{
+//                         items:1
+//                     },
+//                     800:{
+//                         items:2
+//                     },
+//                     1024:{
+//                         items:2
+//                     },
+//                     1100:{
+//                         items:3
+//                     },
+//                     1200:{
+//                         items:3
+//                     }
+//                 }
+//             });    		
+//         }
+//     }
+// }
 
 
 //=== contact Info Carousel===
