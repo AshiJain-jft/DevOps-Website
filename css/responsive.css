@@ -1252,13 +1252,19 @@
 }
 
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 280px) and (max-width: 767px) {
 
-    table{
-        overflow-y:scroll;
-        height:100px;
-        display:block;
-     }
+        table {
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+            width:100%;
+        }
+        
+        table tbody {
+            display: table;
+            width: 100%;
+        }
 }
 
 @media (max-width:766px){
@@ -1279,6 +1285,7 @@
     height: auto;
     padding-bottom: 0;
     overflow: visible !important;
+    margin-left: 15rem;
 }
 .navbar-toggle {
     display: none !important;
@@ -1351,6 +1358,10 @@
     border-radius: 0;
     cursor: pointer;
     padding: 0 9px;
+}
+
+.navbar-toggle .navbar-collapse{
+    margin-left:0rem;
 }
 
 .main-menu .navbar-header .navbar-toggle .icon-bar {
