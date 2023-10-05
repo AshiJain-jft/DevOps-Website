@@ -361,6 +361,10 @@
 .tparrows {
     top: 60% !important;
 }
+
+.google-map{
+    width:530px !important;
+}
     
 /*** 
 =============================================
@@ -676,7 +680,11 @@
 
 
 /* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
+    .google-map{
+        width:510px !important;
+    }
     
 /*** 
 =============================================
@@ -1256,8 +1264,19 @@
     
 }
 
+@media only screen and (min-width: 458px) and (max-width: 538px) {
+       
+    .google-map{
+        width:220px !important;
+    }
+}
+
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 280px) and (max-width: 767px) {
+       
+    .google-map{
+        width:200px !important;
+    }
 
         table {
             display: block;
@@ -1275,6 +1294,9 @@
 @media (max-width:766px){
     .tech-text{
         margin-left: -8rem;
+    }
+    .google-map{
+        width:510px !important;
     }
 }
 
@@ -1304,6 +1326,21 @@
 {
     .contact{
         margin-left:-11rem;
+    }
+    .google-map{
+        width:330px !important;
+    }
+}
+
+
+@media only screen and (max-width: 394px){
+    .google-map{
+        width:200px !important;
+    }
+}
+@media only screen and (max-width: 440px){
+    .google-map{
+        width:385px !important;
     }
 }
 
