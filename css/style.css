@@ -559,6 +559,12 @@ select:focus {
     color: #fff;
 }
 
+.sociallinks-style-two li a i:hover img{
+    background: #f87845;
+    border-color: #f87845;
+    color: #fff;
+}
+
 
 
 .parallax-bg-one {
