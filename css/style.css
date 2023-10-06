@@ -553,7 +553,7 @@ select:focus {
     transition: all 500ms ease 0s;
     width: 40px;
 }
-.sociallinks-style-two li a:hover i{
+/* .sociallinks-style-two li a:hover i{
     background: #f87845;
     border-color: #f87845;
     color: #fff;
@@ -563,7 +563,7 @@ select:focus {
     background: #f87845;
     border-color: #f87845;
     color: #fff;
-}
+} */
 
 
 
